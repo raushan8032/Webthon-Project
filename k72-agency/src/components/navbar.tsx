@@ -4,7 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 function Navbar() {
   return (
     <div className="navbar">
-      <div className="logo">K72</div>
+      <h1 className="logo">K72</h1>
 
       <IconButton className="menuButton">
         <MenuIcon style={{ color: "white" }} />
