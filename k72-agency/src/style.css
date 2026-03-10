@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+
 .hero{
   height:100vh;
   width:100%;
@@ -27,17 +29,22 @@
   position:absolute;
   width:100%;
   height:100%;
-  background:rgba(0,0,0,0.55);
   z-index:-1;
 }
 
 
 .heroText{
-  font-size:64px;
+  font-size:80px;
   max-width:900px;
   line-height:1.1;
   font-weight:600;
   color: white;
+  font-family: 'Lusitana', serif;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
 
   opacity:0;
   transform:translateY(40px);
@@ -51,6 +58,14 @@
   }
 }
 
+.smallVideo {
+  width: 200px;
+  height: 100px;
+  border-radius: 100px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
 /* Navbar styles */
 .navbar {
   position: fixed;
@@ -60,7 +75,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: rgba(0, 0, 0, 0.8);
   z-index: 10;
 }
 
